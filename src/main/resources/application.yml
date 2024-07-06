@@ -1,0 +1,16 @@
+# datasource specific properties
+
+spring:
+  application: 
+    name: Spring-productapp-restdocker
+    
+  data:
+    mongodb:
+      uri: mongodb://momgodbcon:27017/triningdb
+         
+# application and mongodb are running locally: mongodb://localhost:27017/trainingdb
+# application is running externally in the localmachine and momgodb is running as a docker container
+# mongodb://0.0.0.0:27017/triningdb
+
+# application and mongodb are running as a docker container
+# mongodb://<momgodbcontainername>:27017/triningdb   
